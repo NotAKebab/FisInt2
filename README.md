@@ -21,3 +21,10 @@ https://www.youtube.com/@dilmerv  (La cantidad de contenido estudiado de este so
 https://www.youtube.com/@ValemTutorials (De este también, todo lo de SDK Interaction también fue revisado)
 
 https://github.com/microsoft/MixedRealityToolkit-Unity
+
+
+Nos decidimos por un estilo artistico tipo lowpoly y usamos assets de Unity para los Ambientes
+
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
+
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-style-free-rocks-and-plants-145133
