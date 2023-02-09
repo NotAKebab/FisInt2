@@ -4,6 +4,10 @@
 
 Esta es un breve documento de diseño en el que se va a resumir brevemente los avances completados a lo largo del semestre
 
+ID:425705 Esteban Gallón Uribe
+ID:425629 Juan Sebastián Giraldo
+ID:424790 Sebastián Ayala Arroyave
+
 ## Prototipo 1
 
 Para este prototipo, se llevó alrededor de un fin de semana, principalmente al ser la primera vez que trabajamos con un oculus, empezamos por actualizar el software de los oculus, conectar la cuenta a un dispositivo móvil y obviamente, probar lo básico. Esto llevó unas horas en hacer para ser el primer día, de aquí, teniendo la idea planeada en una galería de los planetas del universo de Brandon Sanderson "Cosmere" agarramos la idea de hacerla con el passtrough de las Quest 2, creando una realidad mixta, para tener un sistema más inmersivo, abajo dejaré referencias de los videos que se usaron para estudiar el passtrough
