@@ -4,9 +4,9 @@
 
 Esta es un breve documento de diseño en el que se va a resumir brevemente los avances completados a lo largo del semestre
 
-ID:425705 Esteban Gallón Uribe \n
-ID:425629 Juan Sebastián Giraldo \n
-ID:424790 Sebastián Ayala Arroyave \n
+ID:425705 Esteban Gallón Uribe
+ID:425629 Juan Sebastián Giraldo
+ID:424790 Sebastián Ayala Arroyave
 
 ## Prototipo 1
 
