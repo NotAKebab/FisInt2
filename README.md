@@ -36,3 +36,11 @@ Nos decidimos por un estilo artistico tipo lowpoly y usamos assets de Unity para
 https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
 
 https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-style-free-rocks-and-plants-145133
+
+
+## Prototipo 2
+
+Repositorio para los prototipos:
+- El código de todos los proyectos de software involucrados.
+- Documentar el proceso, pruebas intermedias, qué funcionó, qué no funcionó, qué problemas tuviste, cómo se solucionaron, que material consultaste.
+- Documenta en fotos y video (coloca enlaces) del proceso y del resultado final del prototipo.
