@@ -2,7 +2,7 @@
 
 # Galería Cosmere
 
-[Proyecto de Unity]https://github.com/NotAKebab/Cosmere
+[Proyecto de Unity](https://github.com/NotAKebab/Cosmere)
 
 Esta es un breve documento de diseño en el que se va a resumir brevemente los avances completados a lo largo del semestre
 
