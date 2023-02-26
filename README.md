@@ -48,3 +48,11 @@ Repositorio para los prototipos:
 
 ![image](https://user-images.githubusercontent.com/72229509/221012368-4a554a98-2b97-46ed-8995-ca8cc673be1d.png)
 
+
+avance
+
+suficiente playground, hora de borrar todo y empezar de nuevo :)
+
+![image](https://user-images.githubusercontent.com/72229509/221386458-1b9ccd08-b412-4d6e-8cd0-4f26abae516e.png)
+![image](https://user-images.githubusercontent.com/72229509/221386462-cc744b5c-b91e-481e-a53d-b822f4527055.png)
+
