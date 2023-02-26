@@ -46,10 +46,36 @@ Repositorio para los prototipos:
 - Documenta en fotos y video (coloca enlaces) del proceso y del resultado final del prototipo.
 
 
-![image](https://user-images.githubusercontent.com/72229509/221012368-4a554a98-2b97-46ed-8995-ca8cc673be1d.png)
-
-
 avance
+
+En la parte narrativa:
+El usuario se encontrar en un espacio con tres carpas plegables rodeando una mesita con unos Oculus con unos cascos conectados, un encargado le explicara lo más básico (que entrará a una experiencia interactiva de una parte del Cosmere, el cual es un universo literario creado por Brandon Sanderson y deberá seguir las instrucciones que la experiencia le asigne al usuario).
+El usuario al acceder se encontrará entonces con un espacio en blanco y negro que será en realidad aumentada y tres pósters digitales interactivos. De inmediato escuchará la voz de un personaje representativo de la saga, en este caso será Hoid, este le pedirá ayuda entrando a cada mundo para hablar con alguien pero este no especificará para qué.
+
+El usuario procederá a entrar a cada uno de los mundos
+Scadrial, mundo en el que transcurre los sucesos de mistborn, al entrar se verá en una calle, pero está llena de Bruma en la que apenas podrá ver, Vin, personaje principal de la primera saga de libros, verá un potencial mágico en el usuario y le explicará la magia del mundo, el poder de acercar y alejar cosas de metal a su alrededor, luego el usuario podrá quedarse a experimentar o pasar al siguiente mundo, para esto Hoid le insistirá en recordar su misión.
+![image](https://user-images.githubusercontent.com/68132813/221429010-8af1a900-c665-45e1-9210-60bd7e862f53.png)
+
+Sel, planeta de los sucesos de elantris, en este caso el usuario se encontrará en un espacio similar a un interior de una catedral de mármol donde se cruzará con Raoden, este también le ayudará a aprender a usar sus poderes, en este caso tendrá que hacer símbolos en una tabla en el aire con los dedos, acá podrá seguir practicando, pero Hoid insistirá en que siga en la búsqueda. 
+![image](https://user-images.githubusercontent.com/68132813/221429084-1b5b87db-1daa-4335-a283-b514fa39be1e.png)
+
+Por último, Nalthis, mundo de Warbreaker, en este se encontrará en una habitación abandonada, donde se encontrará con Vivenna, esta verá su potencial y le explicarán sobre los "alientos" que los alientos sirven para varias cosas entre otras es ver los tonos perfectos de los colores, detectar los alientos de otras personas, pero principalmente que se le puede dar órdenes a otros objetos gastando los alientos que tienes. Podrás practicar y la voz de Hoid te dirá que salgas para continuar.
+![image](https://user-images.githubusercontent.com/68132813/221429157-c916e7c8-75a6-4651-b669-a83c10103a45.png)
+
+
+Al salir del último de los mundos, una voz te va a reclamar por lo que estás haciendo, Brandon Sanderson, el escritor de todos los libros.
+
+Brandon Sanderson invoca a una criatura para matarte, en este punto el jugador con lo aprendido tiene que deshacerse de la criatura.
+![image](https://user-images.githubusercontent.com/68132813/221429180-d3100be3-3a63-49cc-8634-8f95f87ff406.png)
+![image](https://user-images.githubusercontent.com/68132813/221429206-fa252d55-3f8b-4439-931a-c05ed8d610ea.png)
+
+Al desterrar a la criatura enviada por Sanderson, oyes la voz de Sanderson nuevamente, diciendo que igualmente iba a recuperar lo robado, siendo él creador de todo lo que hay alrededor, elimina los poderes del usuario y retorna todo al inicio de la experiencia.
+
+
+
+
+![image](https://user-images.githubusercontent.com/68132813/221428710-65e968f3-df28-4678-bf03-6fd1083c3f01.png)
+
 
 suficiente playground, hora de borrar todo y empezar de nuevo :)
 
