@@ -105,14 +105,19 @@ Avance 3.1
 Se avanzo a la hora de hacer modelos para los personajes que ayudaran al usuario, estos son Vin(Mistborn)
 ![image](https://user-images.githubusercontent.com/68132813/222533468-d9f00f85-1071-404b-8957-9d221c9f4507.png)
 Raoden(Elantris)
+
 ![image](https://user-images.githubusercontent.com/68132813/222533640-00a8a78a-7922-45df-aed9-ab684e77c6c9.png)
 Vivenna(Warbreaker)
+
 ![image](https://user-images.githubusercontent.com/68132813/222533810-452a23e0-5812-46ea-9c5c-a3f5f20d0e0c.png)
 
 Para esto empezamos con un modelo humanoide base
 ![image](https://user-images.githubusercontent.com/68132813/222534081-b2ee0ff6-dbf1-478f-9b4d-628865918059.png)
+
 y a partir de este empezamos a crear la indumentaria y atuendos, por ahora tenemos una camisilla.
-![image](https://user-images.githubusercontent.com/68132813/222534202-fe678aa1-54b9-4f28-92ba-32b97c108929.png)![image](https://user-images.githubusercontent.com/68132813/222534233-ce73949c-daa4-40f7-adb9-b424cdf31105.png)
+
+![image](https://user-images.githubusercontent.com/68132813/222534202-fe678aa1-54b9-4f28-92ba-32b97c108929.png)
+![image](https://user-images.githubusercontent.com/68132813/222534233-ce73949c-daa4-40f7-adb9-b424cdf31105.png)
 
 
 
