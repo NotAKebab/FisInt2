@@ -77,8 +77,18 @@ Al desterrar a la criatura enviada por Sanderson, oyes la voz de Sanderson nueva
 ![image](https://user-images.githubusercontent.com/68132813/221428710-65e968f3-df28-4678-bf03-6fd1083c3f01.png)
 
 
-suficiente playground, hora de borrar todo y empezar de nuevo :)
+con suficiente playground, mejor iniciar de 0
 
 ![image](https://user-images.githubusercontent.com/72229509/221386458-1b9ccd08-b412-4d6e-8cd0-4f26abae516e.png)
 ![image](https://user-images.githubusercontent.com/72229509/221386462-cc744b5c-b91e-481e-a53d-b822f4527055.png)
+
+Al tener como error principal no haber empezado el proyecto en 3D URP (algo necesario para poder trabajar con el passtrough de los oculus), hacerlo manualmente generaba errores en las texturas, bueno obviamente más assets gratis para tener algo de "idea" que funcione bien lo que queremos lograr
+
+## Links de los assets
+* https://assetstore.unity.com/packages/3d/environments/stylize-modular-house-demo-free-erbeilo-3d-220218
+* https://assetstore.unity.com/packages/3d/environments/house-pack-35346
+* https://assetstore.unity.com/packages/3d/environments/free-medieval-room-131004
+* https://assetstore.unity.com/packages/3d/environments/dungeons/ultimate-low-poly-dungeon-143535
+* https://assetstore.unity.com/packages/3d/environments/cabin-environment-98014
+
 
