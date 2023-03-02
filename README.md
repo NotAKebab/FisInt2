@@ -91,4 +91,11 @@ Al tener como error principal no haber empezado el proyecto en 3D URP (algo nece
 * https://assetstore.unity.com/packages/3d/environments/dungeons/ultimate-low-poly-dungeon-143535
 * https://assetstore.unity.com/packages/3d/environments/cabin-environment-98014
 
+Acá todo normal, mas que empieza a haber un problema, ninguna textura quería volver a su normalidad, incluso después de muchas posibles soluciones, nada funcionaba y al ser assets ya definidos no teníamos mucho control del material como para moverlo como si nada, entonces, para ahorrar tambien problemas a futuro, se creó un neuvo proyecto de unity.
 
+Igualmente, copiar y pegar lo ya hecho, tampoco era un problema, organicé un espacio distinto de assets dentro del portal ya más adaptado a lo que se quería lograr con los assets gratis
+
+![image](https://user-images.githubusercontent.com/72229509/222336048-eaf7ffe7-ade7-4960-bf11-5af57d02f23a.png)
+
+Incluso, se hicieron los tres portales planeados, aunque sin los assets finales planeados, sin embargo, ya están los tres funcionales para entrar y salir, pero, ahora como hacer para activar un portal u otro?
+Narrativamente en el universo existen las esquirlas, que son piedras de la creación, las cuales reciben nombre de una característica o ideal específico, de momento, representadas con otro asset gratis de una bola de cristal, las piedras elegidas de momento son, dotación (verde), devoción (verde/rojo) y conservación (blanco), la idea es que cuando una de las piedras esté colisionando con un sitio definido el portal se active.
