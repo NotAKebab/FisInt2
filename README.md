@@ -99,7 +99,8 @@ Igualmente, copiar y pegar lo ya hecho, tampoco era un problema, organicé un es
 
 Incluso, se hicieron los tres portales planeados, aunque sin los assets finales planeados, sin embargo, ya están los tres funcionales para entrar y salir, pero, ahora como hacer para activar un portal u otro?
 
-##Avance 3.1
+## Avance 3.1
+
 
 Se avanzo a la hora de hacer modelos para los personajes que ayudaran al usuario, estos son Vin(Mistborn)
 ![image](https://user-images.githubusercontent.com/68132813/222533468-d9f00f85-1071-404b-8957-9d221c9f4507.png)
@@ -142,7 +143,7 @@ para el modelo del humano creamos esta base y terminamos las primeras prendas
 
 ![image](https://user-images.githubusercontent.com/68132813/224137978-50a0e146-386a-4b39-aa5a-6ad57328ae2f.png)
 
-
+En la parte técnica se hicieron las esquirlas que activan y desactivan al estar en contacto con un collider, y cambiamos de idea de tener varios portales a tener solo uno para solucionar el bug que teníamos de los múltiples portales con la misma proyección, desde unity, todo funcionaba bien pero tuvimos un error peor al lanzar el ejecutable, nada funcionaba realmente, inicialmente debería iniciar en el passtrough con el portal cerrado gracias al código de las esferas, pero empieza mirando dentro del portal, que se supone que está activo, 
 
 
 
