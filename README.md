@@ -127,7 +127,7 @@ Intentando aplicar los assets para cada portal, tuve un error del cual no tenemo
 Sin embargo,  si no logramos solución para las previews, se está intentando bajo script con una idea en mente.
 Narrativamente en el universo existen las esquirlas, que son piedras de la creación, las cuales reciben nombre de una característica o ideal específico, las piedras elegidas de momento son, dotación (verde), devoción (verde/rojo) y conservación (blanco), la idea del script es desactivar las capas y cuando la esquirla toque un collider active las capas del portal correspondiente (no sabemos programar, esperamos tenerlo listo para el prototipo 3 completo)
 
-##Avance 3.2
+## Avance 3.2
 Se dfinio como objeto para interactuar tres botones que se conectaran por bluethoot, aun estamos pensando bien en esto, ademas conseguismo terminar el cuerpo de humano base y de enemigo final base(koloss) de este ultimo tuvimos varias variaciones
 
 ![image](https://user-images.githubusercontent.com/68132813/224136434-2d157a41-70ca-46e8-9c5f-ef8681d9ad4e.png)
