@@ -150,10 +150,22 @@ Habián unos errores que nos forzaron a rehacer el proyecto desde 0, cosa que ac
 
 Se hicieron los modelos del Koloss bebé y adulto en lowpoly
 
-se hicieron unos ajustes en la narrativa para que resultara mas consistente con los mundos planteados por Brandon Sanderson
+se hicieron unos ajustes en la narrativa para que resultara mas consistente con los mundos planteados por Brandon Sanderson:
+Ya no tendremos una lucha final con brandon o alguna bestia que este nos lance, sino que cada mundo que visitemos nos pondra en una situacion cable que aparece en los libros, entre mas clave o con mas accion mejor, de esta forma cada mundo nos dara la suficciente accion y contexto, esto puede hacer que la persona se vea mas atraida al libro ya que estuvo en el por asi decirlo, aun hay que trabajar en que partes exactas de los libros, y cual es la motivacion del usuario.
 
 ## Avance 4.1
 Se hicieron los botones en la App inventor:
+Para esto tomamos de base este repositorio del profesor Juan Franco https://github.com/juanferfranco/appSensorActivity.
+pero hicimos varias modificaciones, para empezar eliminamos la parte del mensaje porque no lo nececitamos y agregamos el sensor de proximidad.
+![image](https://user-images.githubusercontent.com/68132813/227341049-af96d472-3cda-4f55-b859-08f3332e2888.png)
+Ademas agregamos el componente de web, esto nos ayudara a crear los objetos json para enviarlo por udp a unity.
+![image](https://user-images.githubusercontent.com/68132813/227341526-cc61f011-a1c1-4c21-a10a-aa90baf9c6b7.png)
+luego de agregar estos componentes empezaremos a usar los bloques para codificar la aplicacion
+![image](https://user-images.githubusercontent.com/68132813/227341716-d9496019-d9de-4e46-9a22-e32b1421d3f9.png)
+En resumen, cada vez que se oprima el boton la aplicacion enviare la informacion del ip el cual asignaremos con el hotspot del celular, y la informacion del puerto que asignaremos como 6666, este numero es importante a la hora de hacer el codigo en c#, hay que recordar que para conectar la aplicacion y que funcione hay que apagar el firewall en el pc.
+
+
+
 Se hizo un prototipo funcional en Unity pero hay que cambiar el hecho de que funciona con botón a que lo haga con temporizador.
 
 Cambiamos la Narrativa y El estilo artístico:
