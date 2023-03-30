@@ -193,3 +193,13 @@ Aun no tenemos claro como se introducira al usuario ni como se motivara a usar l
 se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no es necesario este personaje.
 
 ## Avance 4.2
+
+### 3 Escenas nuevas añadidas
+
+![image](https://user-images.githubusercontent.com/72229509/228946799-81df3d23-58c1-40be-bd9c-5d9f93976806.png)
+
+*En una nueva escena se arregló el problema del portal, queda la escena del portal malo para probar otras cosas.
+
+*Cambiamos la idea de las esquirlas por ahora, para tener integrada la aplicación creada, está el código y la idea es ponerla aprueba en una escena extra.
+
+*En la última escena está el playground con las mecánicas, donde recién se están haciendo pruebas con uno de los poderes, este poder se basa en poder lanzar y atraer monedas y clavos, cosa que, no hemos logrado y aún se siguen moviendo cambios.
