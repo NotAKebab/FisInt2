@@ -179,7 +179,7 @@ se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no 
 
 ##Prototipo 4.2
 
-#3 Escenas nuevas añadidas
+# 3 Escenas nuevas añadidas
 
 ![image](https://user-images.githubusercontent.com/72229509/228941272-bd2fa190-216a-4334-9c63-fea49524e6cb.png)
 
