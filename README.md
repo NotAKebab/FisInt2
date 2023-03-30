@@ -204,4 +204,8 @@ se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no 
 
 - En la última escena está el playground con las mecánicas, donde recién se están haciendo pruebas con uno de los poderes, este poder se basa en poder lanzar y atraer monedas y clavos, cosa que, no hemos logrado y aún se siguen moviendo cambios.
 
+En la parte de la narrativa pudimos clarificar y tenerla completa, al menos la base. El usuario al entrar a la experiencia se encuentra con una mesa, esta tendra una piedra, y al frente habran otras dos mesas con un plato cada uno, justo detras habran unos posters con una ilustracion, con el mundo que le corresponde a cada uno, ademas te encontraras con el portal pero estara desactivado y te encontraras con Hoid(Un personaje muy importante en el universo del Cosmere), eres uno de sus estudiantes y te pondra a prueba para seguir estando a su lado y seguir aprendiendo a ser un cuentahistorias de este universo, el te explicara lo basico de las esquirlas, es decir que todos los poderes vienen de esquirlas que contienen pedazos de un dios que due dividido hace mucho tiempo, y usando este poder deberas experimentar partes que el considera de provecho para crear historias, el te motivara a pasar las pruebas en cada mundo, cada mundo sigue igual al avance pasado, cada vez que vas a entrar a uno de estos mundos el te dara una breve explicacion de su magia y te dara una pequeña guia de lo que debes de hacer. al acabar la experiencia Hoid te felicitara por lograr conseguir tanta informacion para contar historias y te dira que puedes seguir siendo su pupilo pero por ahora debes de descansar y ese sera el final.
+Hoid:
+![image](https://user-images.githubusercontent.com/68132813/228951648-bd6039be-e1dc-4aa3-91af-26810e04ea32.png)
+
 
