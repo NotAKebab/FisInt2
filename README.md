@@ -177,9 +177,9 @@ Se hizo un prototipo funcional en Unity pero hay que cambiar el hecho de que fun
 Cambiamos la Narrativa y El estilo artístico:
 se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no es necesario este personaje
 
-Prototipo 4.2
+##Prototipo 4.2
 
-* 3 Escenas nuevas añadidas
+#3 Escenas nuevas añadidas
 
 ![image](https://user-images.githubusercontent.com/72229509/228941272-bd2fa190-216a-4334-9c63-fea49524e6cb.png)
 
