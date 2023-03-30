@@ -128,14 +128,14 @@ Sin embargo,  si no logramos solución para las previews, se está intentando ba
 Narrativamente en el universo existen las esquirlas, que son piedras de la creación, las cuales reciben nombre de una característica o ideal específico, las piedras elegidas de momento son, dotación (verde), devoción (verde/rojo) y conservación (blanco), la idea del script es desactivar las capas y cuando la esquirla toque un collider active las capas del portal correspondiente (no sabemos programar, esperamos tenerlo listo para el prototipo 3 completo)
 
 ## Avance 3.2
-Se definió como objeto para interactuar tres botones que se conectaran por bluetooth, aun estamos pensando bien en esto, ademas conseguimos terminar el cuerpo de humano base y de enemigo final base(Koloss) de este último tuvimos variaciones
+Se definió como objeto para interactuar tres botones que se conectaran por bluethoot, aun estamos pensando bien en esto, ademas conseguismo terminar el cuerpo de humano base y de enemigo final base(koloss) de este ultimo tuvimos varias variaciones
 
 ![image](https://user-images.githubusercontent.com/68132813/224136434-2d157a41-70ca-46e8-9c5f-ef8681d9ad4e.png)
 ![image](https://user-images.githubusercontent.com/68132813/224136475-5c9fc151-1f1c-4dee-85ae-ce63f6c0527c.png)
 
-De estas nos quedamos con el último
+de estas nos quedamos con el ultimos
 
-Para el modelo del humano creamos esta base y terminamos las primeras prendas
+para el modelo del humano creamos esta base y terminamos las primeras prendas
 
 ![image](https://user-images.githubusercontent.com/68132813/224136991-f9f1aec4-5e4f-40f6-a922-2c7cdd0bd398.png)
 
@@ -143,7 +143,7 @@ Para el modelo del humano creamos esta base y terminamos las primeras prendas
 
 ![image](https://user-images.githubusercontent.com/68132813/224137978-50a0e146-386a-4b39-aa5a-6ad57328ae2f.png)
 
-En la parte técnica se hicieron las esquirlas que activan y desactivan al estar en contacto con un collider, y cambiamos de idea de tener varios portales a tener solo uno para solucionar el bug que teníamos de los múltiples portales con la misma proyección, desde unity, todo funcionaba bien pero tuvimos un error peor al lanzar el ejecutable, nada funcionaba realmente, inicialmente debería iniciar en el passtrough con el portal cerrado gracias al código de las esferas, pero empieza estando dentro del portal, que se supone que está inactivo.
+En la parte técnica se hicieron las esquirlas que activan y desactivan al estar en contacto con un collider, y cambiamos de idea de tener varios portales a tener solo uno para solucionar el bug que teníamos de los múltiples portales con la misma proyección, desde unity, todo funcionaba bien pero tuvimos un error peor al lanzar el ejecutable, nada funcionaba realmente, inicialmente debería iniciar en el passtrough con el portal cerrado gracias al código de las esferas, pero empieza mirando dentro del portal, que se supone que está activo, 
 
 ## Prototipo 3
 Habián unos errores que nos forzaron a rehacer el proyecto desde 0, cosa que acabó funcionando.
@@ -170,21 +170,26 @@ luego de agregar estos componentes empezaremos a usar los bloques para codificar
 
 En resumen, cada vez que se oprima el boton la aplicacion enviare la informacion del ip el cual asignaremos con el hotspot del celular, y la informacion del puerto que asignaremos como 6666, este numero es importante a la hora de hacer el codigo en c#, hay que recordar que para conectar la aplicacion y que funcione hay que apagar el firewall en el pc.
 
+Luego usamos de base el codigo que se encuentra en el repositorio de referencia y modificamos para que la bola aparezca y desaparezca segun la distancia que envie el sensor de proximidad, esta listo para integrarse con todo el proyecto.
 
 
 Se hizo un prototipo funcional en Unity pero hay que cambiar el hecho de que funciona con botón a que lo haga con temporizador.
 
 Cambiamos la Narrativa y El estilo artístico:
-se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no es necesario este personaje
+Analizando la narrativa y el flujo del proyecto como gtal nos dimos cuenta que hubo un gran problema en en la motivacion para el usuario, ademas no encontrbamos escenas en el tercer mundo es decir el de warbreaker para que el usuario pudiera interactuar y que fuera atrpante, para esto decidimos eliminar completamente ese mundo quedandonos solo con dos, el de mistborn y elo de elantris.
 
-## Prototipo 4.2
+Para el portal de Mistborn, el usuario entrara al portal y se encontrara en un pasillo de un fuerte, lo primero que encontrara sera un soldado y te dire que uses tus poderes, en los pasillos encontraras clavos y monedas de metal las cuales podras usar de proyectiles, avanzaras por el pasillo y te encontraras con Vin(personaje importante de los libros) y tendras que pelear con ella utilizando las mecanicas aprendidas.
 
-### 3 Escenas nuevas añadidas
+Para el portal de Elantris, el usuario entrara al portal y se encontrara alineado con muchos NPCs relucientes, enfrente de estos se encontrara Galladon(personaje importante de los libros) este le estara enseñando a los NPCs y al usuario a dibujar un Aon(simbolo para poder utilizar la magia de este mundo) este servira para lanzar una bola de energia y hacer daño, luego de una pequeña practica aparece un enemigo este es un monje Dakhor, el cual es un enemigo del libro, estos monjes tienen sus huesos modificados por medio de esta magia que se encuentra en el mundo, haciendolos mas fuertes y mas bestiales. Luego de eliminar a este enemigo el usuario saldra de esta portal y acabara la experiencia.
+![image](https://user-images.githubusercontent.com/68132813/228944285-cd029922-d4cf-43ac-ad1b-7d02fc4ecf0e.png)
 
-![image](https://user-images.githubusercontent.com/72229509/228941272-bd2fa190-216a-4334-9c63-fea49524e6cb.png)
+![image](https://user-images.githubusercontent.com/68132813/228944693-83a3ff36-516b-472e-b795-e8ede01fcaff.png)
 
-- En una nueva escena se arregló el problema del portal, queda la escena del portal malo para probar otras cosas.
+![image](https://user-images.githubusercontent.com/68132813/228944777-590589c0-cc95-435d-85b7-5da8c6d71f6c.png)
 
-- Cambiamos la idea de las esquirlas por ahora, para tener integrada la aplicación creada, está el código y la idea es ponerla aprueba en una escena extra.
 
-- En la última escena está el playground con las mecánicas, donde recién se están haciendo pruebas con uno de los poderes, este poder se basa en poder lanzar y atraer monedas y clavos, cosa que, no hemos logrado y aún se siguen moviendo cambios.
+Aun no tenemos claro como se introducira al usuario ni como se motivara a usar la experiencia, tampoco como finalizara porque esto se ve afectado por lo anterior.
+
+se realizó el modelo del Koloss bebé, aunque con el cambio de narrativa ya no es necesario este personaje.
+
+## Avance 4.2
