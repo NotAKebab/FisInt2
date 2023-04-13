@@ -216,3 +216,7 @@ Logramos implementar el portal con el sensor externo de forma correcta, debido a
 
 Tuvimos problemas con las mecanicas debido a que nos pasan bastantes problemas en el codigo debido a que no logra integrarse con lo que llevamos.
 
+Ademas estuvimos trabajando en el modelo del enemigo del segundo mundo:
+![image](https://user-images.githubusercontent.com/68132813/231866830-9feea62b-bd23-46b1-83e3-447112ecf722.png)
+
+
