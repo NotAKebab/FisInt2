@@ -214,4 +214,5 @@ Hoid:
 
 Logramos implementar el portal con el sensor externo de forma correcta, debido a ciertos problemas con la activcion y desactivacion de las capas de los portales decidimos girarlo 180 grados en y de esta manera se vera el passtrough, el sensor al detectar algo en este caso la piedra hara que se gire el portal como si este estuviera activado. ademas agregamos una base del primero mundo, este es una especie de cabaña por dentro, hemos intentado integrar las mecanicas de los metales, pero nos han causado varios problemas por la integracion de las librerias, en este momento estamos intentando arreglar este problema. ademas ya tenemos los bocetos de los mundos completos. Nos falta agregar el sistema de dialogos, para esto usaremos fungus, de esta manera integraremos la narrativa al 100%. Faltan algunos cambios para el primer mundo, como el pasillo, pero en general esta la base. 
 
+Tuvimos problemas con las mecanicas debido a que nos pasan bastantes problemas en el codigo debido a que no logra integrarse con lo que llevamos.
 
