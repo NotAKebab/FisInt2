@@ -243,12 +243,11 @@ luego de agregar estos componentes empezaremos a usar los bloques para codificar
 
 En resumen, cada vez que se oprima el boton la aplicacion enviare la informacion del ip el cual asignaremos con el hotspot del celular, y la informacion del puerto que asignaremos como 6666, este numero es importante a la hora de hacer el codigo en c#, hay que recordar que para conectar la aplicacion y que funcione hay que apagar el firewall en el pc.
 
-Para el master tomamos esta misma base pero cambiamos como se manda el cosigo en si, ahora no nececitamos el sensor de proximidad sino dos botones, on y off, estos daran el permiso para que la aplicacion del sensor pueda funcionar y afectar el porta.
+Para el master tomamos esta misma base pero cambiamos como se manda el codigo en si, ahora no nececitamos el sensor de proximidad sino dos botones, on y off, estos daran el permiso para que la aplicacion del sensor pueda funcionar y afectar el porta.
 ![image](https://github.com/NotAKebab/FisInt2/assets/68132813/97ef2356-5893-4fa4-8336-104ef935df7f)
-
 De esta manera se veria la aplicacion, aun tenemos agregado el componente web y el componenete de udp.
-![image](https://github.com/NotAKebab/FisInt2/assets/68132813/491830f2-f371-47a9-b692-3e5576e9f432)
 
+![image](https://github.com/NotAKebab/FisInt2/assets/68132813/491830f2-f371-47a9-b692-3e5576e9f432)
 Aca se pueden ver la configuracion en bloques, al darle click al boton de send se configura el envio de datos al pc y al darle a on u off, se envia un objeto json que deberemos codificar en unity para que le de permisos a la aplicacion del sensor.
 
 
