@@ -225,6 +225,31 @@ https://github.com/NotAKebab/FisInt2/assets/68132813/c5481f14-4f26-4334-9b86-688
 
 https://github.com/NotAKebab/FisInt2/assets/68132813/753d974e-3afa-4240-a688-9904f94df871
 
+## Guia Aplicaciones Master y Sensor
+
+Se hicieron los botones en la App inventor:
+Para esto tomamos de base este repositorio del profesor Juan Franco https://github.com/juanferfranco/appSensorActivity.
+pero hicimos varias modificaciones, para empezar eliminamos la parte del mensaje porque no lo nececitamos y agregamos el sensor de proximidad.
+
+![image](https://user-images.githubusercontent.com/68132813/227341049-af96d472-3cda-4f55-b859-08f3332e2888.png)
+
+Ademas agregamos el componente de web, esto nos ayudara a crear los objetos json para enviarlo por udp a unity.
+
+![image](https://user-images.githubusercontent.com/68132813/227341526-cc61f011-a1c1-4c21-a10a-aa90baf9c6b7.png)
+
+luego de agregar estos componentes empezaremos a usar los bloques para codificar la aplicacion
+
+![image](https://user-images.githubusercontent.com/68132813/227341716-d9496019-d9de-4e46-9a22-e32b1421d3f9.png)
+
+En resumen, cada vez que se oprima el boton la aplicacion enviare la informacion del ip el cual asignaremos con el hotspot del celular, y la informacion del puerto que asignaremos como 6666, este numero es importante a la hora de hacer el codigo en c#, hay que recordar que para conectar la aplicacion y que funcione hay que apagar el firewall en el pc.
+
+Para el master tomamos esta misma base pero cambiamos como se manda el cosigo en si, ahora no nececitamos el sensor de proximidad sino dos botones, on y off, estos daran el permiso para que la aplicacion del sensor pueda funcionar y afectar el porta.
+![image](https://github.com/NotAKebab/FisInt2/assets/68132813/97ef2356-5893-4fa4-8336-104ef935df7f)
+
+De esta manera se veria la aplicacion, aun tenemos agregado el componente web y el componenete de udp.
+![image](https://github.com/NotAKebab/FisInt2/assets/68132813/491830f2-f371-47a9-b692-3e5576e9f432)
+
+Aca se pueden ver la configuracion en bloques, al darle click al boton de send se configura el envio de datos al pc y al darle a on u off, se envia un objeto json que deberemos codificar en unity para que le de permisos a la aplicacion del sensor.
 
 
 
