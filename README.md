@@ -40,13 +40,7 @@ https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-style-f
 
 ## Prototipo 2
 
-Repositorio para los prototipos:
-- El código de todos los proyectos de software involucrados.
-- Documentar el proceso, pruebas intermedias, qué funcionó, qué no funcionó, qué problemas tuviste, cómo se solucionaron, que material consultaste.
-- Documenta en fotos y video (coloca enlaces) del proceso y del resultado final del prototipo.
-
-
-avance
+Avance
 
 En la parte narrativa:
 El usuario se encontrar en un espacio con tres carpas plegables rodeando una mesita con unos Oculus con unos cascos conectados, un encargado le explicara lo más básico (que entrará a una experiencia interactiva de una parte del Cosmere, el cual es un universo literario creado por Brandon Sanderson y deberá seguir las instrucciones que la experiencia le asigne al usuario).
@@ -61,7 +55,6 @@ Sel, planeta de los sucesos de elantris, en este caso el usuario se encontrará 
 
 Por último, Nalthis, mundo de Warbreaker, en este se encontrará en una habitación abandonada, donde se encontrará con Vivenna, esta verá su potencial y le explicarán sobre los "alientos" que los alientos sirven para varias cosas entre otras es ver los tonos perfectos de los colores, detectar los alientos de otras personas, pero principalmente que se le puede dar órdenes a otros objetos gastando los alientos que tienes. Podrás practicar y la voz de Hoid te dirá que salgas para continuar.
 ![image](https://user-images.githubusercontent.com/68132813/221429157-c916e7c8-75a6-4651-b669-a83c10103a45.png)
-
 
 Al salir del último de los mundos, una voz te va a reclamar por lo que estás haciendo, Brandon Sanderson, el escritor de todos los libros.
 
@@ -225,7 +218,16 @@ https://github.com/NotAKebab/FisInt2/assets/68132813/c5481f14-4f26-4334-9b86-688
 
 https://github.com/NotAKebab/FisInt2/assets/68132813/753d974e-3afa-4240-a688-9904f94df871
 
-## Guia Aplicaciones Master y Sensor
+## Guía para el proyecto
+
+Una guía rápida para entender y realizar de manera autónoma el proyecto es la siguiente:
+
+* Para resumir el primer paso es configurar un proyecto de Unity dedicado a usarse la función del passtrough de los Oculus Quest. (revisar links prototipo 1, acá contienen todos los pasos a detalle y de manera visual)
+* Acá los pasos van a variar de lo hecho en el proyecto y lo realmente planeado y ocurrido entre el prototipo 2 y 3, voy a mencionar los pasos para llegar al proyecto actual, el cual es más sencilo, más abajo dejaré una guía de pasos para llegar al proyecto planeado (en este se involucran los errores más por teoría y con mayor conocimiento de unity podría ser realizable), como un segundo paso es hacer un objeto con el componente de trigger, a este le vamos a añadir un código que sirva para activar el portal por medio del contacto con la MainCamera, esto se hace ya que la cámara principal son los Oculus, esto le da una sensación mucho más realista.
+* Como tercer paso es crear las aplicaciones del Master y del sensor, estas tienen un script único pensado el cual puede entrar en un Game Object vacío, este va a dar las señales de lo que esté pasando entre las aplicaciones y el unity. (revisar el script "SensorUDP.cs" para entender mejor como funciona)
+* Este código fue adaptado a cambiar de material cada que el sensor estuviera en OFF o en ON, sin embargo, esto también depende de el entendimiento del código del sensor.
+
+### Guia Aplicaciones Master y Sensor
 
 Se hicieron los botones en la App inventor:
 Para esto tomamos de base este repositorio del profesor Juan Franco https://github.com/juanferfranco/appSensorActivity.
@@ -243,14 +245,19 @@ luego de agregar estos componentes empezaremos a usar los bloques para codificar
 
 En resumen, cada vez que se oprima el boton la aplicacion enviare la informacion del ip el cual asignaremos con el hotspot del celular, y la informacion del puerto que asignaremos como 6666, este numero es importante a la hora de hacer el codigo en c#, hay que recordar que para conectar la aplicacion y que funcione hay que apagar el firewall en el pc.
 
-Para el master tomamos esta misma base pero cambiamos como se manda el codigo en si, ahora no nececitamos el sensor de proximidad sino dos botones, on y off, estos daran el permiso para que la aplicacion del sensor pueda funcionar y afectar el porta.
+Para el master tomamos esta misma base pero cambiamos como se manda el codigo en si, ahora no nececitamos el sensor de proximidad sino dos botones, on y off, estos daran el permiso para que la aplicacion del sensor pueda funcionar y afectar el portal.
 ![image](https://github.com/NotAKebab/FisInt2/assets/68132813/97ef2356-5893-4fa4-8336-104ef935df7f)
 De esta manera se veria la aplicacion, aun tenemos agregado el componente web y el componenete de udp.
 
 ![image](https://github.com/NotAKebab/FisInt2/assets/68132813/491830f2-f371-47a9-b692-3e5576e9f432)
 Aca se pueden ver la configuracion en bloques, al darle click al boton de send se configura el envio de datos al pc y al darle a on u off, se envia un objeto json que deberemos codificar en unity para que le de permisos a la aplicacion del sensor.
 
+###Guía de lo planeado
 
-
-
+* Mismo primer paso, iniciar el proyecto y configurarlo para el passtrough.
+* Configurar unas manos de vr con las cuales sea interactuables objetos del mundo.
+* En este paso la idea es hacer el portal, el cual nos permite cambiar entre el passtrough y lo que queremos ver, una manera simple de explicarla es que estamos cubriendo las capas de las cosas algo así como limitar su visión según el ángulo, el canal de Valem en youtube, tiene mucho material de referencia para esto. (https://youtu.be/sYBBTYzbZhA de este video fue sacada la idea de como intentar hacerlo)
+* Crear un objeto interactuable que sea usable con las manos del personaje y también un segundo objeto, el cual tenga un trigger para abrir el portal. (como estaba planeado es que fuera una piedra la cual se metía en una urna y al estar dentro abrirlo)
+* Seguir los pasos de la aplicaciones del master y el sensor.
+* Ahora ya no adaptarlo a un cambio de material, y que este active solamente active o desactive el trigger del segundo objeto, así al momento que el Master oprima el OFF o ON tenga control total de si dejar entrar a la persona al mundo.
 
