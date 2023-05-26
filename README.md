@@ -252,7 +252,7 @@ De esta manera se veria la aplicacion, aun tenemos agregado el componente web y 
 ![image](https://github.com/NotAKebab/FisInt2/assets/68132813/491830f2-f371-47a9-b692-3e5576e9f432)
 Aca se pueden ver la configuracion en bloques, al darle click al boton de send se configura el envio de datos al pc y al darle a on u off, se envia un objeto json que deberemos codificar en unity para que le de permisos a la aplicacion del sensor.
 
-###Guía de lo planeado
+### Guía de lo planeado
 
 * Mismo primer paso, iniciar el proyecto y configurarlo para el passtrough.
 * Configurar unas manos de vr con las cuales sea interactuables objetos del mundo.
