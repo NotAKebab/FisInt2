@@ -214,9 +214,8 @@ Ademas estuvimos trabajando en el modelo del enemigo del segundo mundo:
 
 Hicimos cambios en el portal, esta hora solo muestra un color que cambia cuando esta activado o desactivado por la aplicacion del celular por color, ademas creamos una aplicacion que cumplira la funcion del master, esta permitira que el portal se active o no ya que le da permiso a la aplicacion del sensor para que pueda afectar el portal. Esto funciono pero a la hora de grabarlo no sabemos porque no se nota el cambio de color.
 
-https://github.com/NotAKebab/FisInt2/assets/68132813/c5481f14-4f26-4334-9b86-688788541928
+https://github.com/NotAKebab/FisInt2/assets/72229509/17c3df95-3b91-4f96-874c-8e4409a03d1f
 
-https://github.com/NotAKebab/FisInt2/assets/68132813/753d974e-3afa-4240-a688-9904f94df871
 
 ## Guía para el proyecto
 
